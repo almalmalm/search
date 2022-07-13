@@ -37,5 +37,8 @@ input {
     left: 40px;
 }
 
-.search {
+@media (max-width: 425px) {
+    .search {
+        margin-right: 80px;
+    }
 }
